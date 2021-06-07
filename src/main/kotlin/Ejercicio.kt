@@ -1,3 +1,4 @@
-class Ejercicio(tamañoA: Int) {
-    val tablaSiete = Array(tamañoA) { it * 7 }
+class Ejercicio(tamañoA: Int, funcionArray: (Int)->Int) {
+
+    val tablaSiete = Array(tamañoA,funcionArray)
 }
